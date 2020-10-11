@@ -1,0 +1,29 @@
+{
+  "name": "api-spotiapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/dbasabe/api-spotiapp.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "David Basabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/dbasabe/api-spotiapp/issues"
+  },
+  "homepage": "https://gitlab.com/dbasabe/api-spotiapp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
