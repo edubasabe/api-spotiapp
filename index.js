@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const request = require('request');
-const querystring = require('querystring');
 require('dotenv').config()
 const port = process.env.PORT || 5000;
 
